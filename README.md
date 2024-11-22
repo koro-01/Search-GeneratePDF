@@ -25,41 +25,14 @@ A **Post Management System** built with **Laravel**, allowing dynamic post searc
 
 ## **Setup Instructions**
 
-### 1. **Clone the Repository**
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-```
 
-### 2. **Install Dependencies**
-```bash
-composer install
-npm install
-```
-
-### 3. **Install DomPDF**
+### **Install DomPDF**
 ```bash
 composer require barryvdh/laravel-dompdf
 php artisan vendor:publish --provider="Barryvdh\DomPDF\ServiceProvider"
 ```
 
-### 4. **Set Up .env File**
-```bash
-cp .env.example .env
-```
-Update the `.env` file with your database credentials.
 
-### 5. **Run Migrations**
-```bash
-php artisan migrate --seed
-```
-
-### 6. **Serve the Application**
-```bash
-php artisan serve
-```
-
----
 
 ## **Usage**
 - **Search** posts using the filter.
@@ -72,4 +45,4 @@ MIT License
 
 ---
 
-This version is short and focused on the **installation**, **DomPDF setup**, and **usage** steps. Let me know if you need any changes! 😊
+
